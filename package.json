@@ -2,7 +2,7 @@
     "name":             "adhere",
     "version":          "9.9.9",
     "author":           "Alan Gutierrez <alan@prettyrobots.com>",
-    "description":      "Wrap methods preserving arity",
+    "description":      "Wrap methods preserving arity.",
     "keywords":
     [
                         "http", "https", "rest", "json", "curl"
