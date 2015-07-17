@@ -56,7 +56,7 @@ function adhere (method, wrapper) {
     default:
         // Avert your eyes if you're squeamish.
         var args = []
-        for (var i = 0, I = steps[0].length; i < I; i++) {
+        for (var i = 0, I = method.length; i < I; i++) {
             args[i] = '_' + i
         }
         var adherence = (new Function('wrapper', '                          \n\
