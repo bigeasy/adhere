@@ -19,12 +19,9 @@
     },
     "dependencies":
     {
-                        "media-typer":          "0.3.0",
-                        "cadence":              "0.0.54"
     },
     "devDependencies":
     {
-                        "semblance":            "0.0.1",
                         "proof":                "0.0.52"
     },
     "scripts":
