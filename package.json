@@ -1,6 +1,6 @@
 {
     "name":             "adhere",
-    "version":          "0.0.1",
+    "version":          "0.0.2",
     "author":           "Alan Gutierrez <alan@prettyrobots.com>",
     "description":      "Wrap methods preserving arity.",
     "keywords":
