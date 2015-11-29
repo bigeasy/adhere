@@ -55,6 +55,7 @@ function adhere (method, wrapper) {
         break
     default:
         // Avert your eyes if you're squeamish.
+        // todo: starting to feel like this is all that is needed.
         var args = []
         for (var i = 0, I = method.length; i < I; i++) {
             args[i] = '_' + i
