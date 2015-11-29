@@ -1,0 +1,1 @@
+Wrap methods preserving arity.
