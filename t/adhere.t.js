@@ -1,7 +1,7 @@
 require('proof')(19, prove)
 
 function prove (assert) {
-    var adhere = require('../..')
+    var adhere = require('..')
     var slice = [].slice
 
     var encase = function (method) {
