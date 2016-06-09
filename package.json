@@ -1,31 +1,27 @@
 {
-    "name":             "adhere",
-    "version":          "1.0.1",
-    "author":           "Alan Gutierrez <alan@prettyrobots.com>",
-    "description":      "Wrap methods preserving arity.",
+    "name":                 "adhere",
+    "version":              "1.0.1",
+    "author":               "Alan Gutierrez <alan@prettyrobots.com>",
+    "description":          "Wrap methods preserving arity.",
     "keywords":
     [
-                        "http", "https", "rest", "json", "curl"
+                            "http", "https", "rest", "json", "curl"
     ],
-    "contributors":     [],
-    "homepage":         "https://github.com/bigeasy/adhere",
-    "bugs":             "https://github.com/bigeasy/adhere/issues",
-    "main":             "adhere",
-    "license":          "MIT",
+    "homepage":             "https://github.com/bigeasy/adhere",
+    "bugs":                 "https://github.com/bigeasy/adhere/issues",
+    "main":                 "adhere",
+    "license":              "MIT",
     "repository":
     {
-                        "type": "git",
-                        "url": "http://github.com/bigeasy/adhere.git"
-    },
-    "dependencies":
-    {
+                            "type": "git",
+                            "url": "http://github.com/bigeasy/adhere.git"
     },
     "devDependencies":
     {
-                        "proof":                "1.x"
+                            "proof":                        "1.x"
     },
     "scripts":
     {
-                        "test": "proof platform win32 && proof test */*.t.js || t/test"
+                            "test": "proof platform win32 && proof test */*.t.js || t/test"
     }
 }
