@@ -15,6 +15,9 @@
                             "type": "git",
                             "url": "http://github.com/bigeasy/adhere.git"
     },
+    "dependencies":
+    {
+    },
     "devDependencies":
     {
                             "proof":                        "1.x"
