@@ -1,6 +1,6 @@
 {
     "name":                 "adhere",
-    "version":              "1.0.2",
+    "version":              "1.1.0",
     "description":          "Wrap methods preserving arity.",
     "keywords":
     [
