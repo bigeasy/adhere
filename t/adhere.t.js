@@ -10,7 +10,8 @@ function prove (assert) {
         })
     }
 
-    var string = encase(function () { return 1 })
+    var string = adhere(function () { return 1 }, 1, function (object, vargs) {})
+    console.log(string.toString())
     assert(string.toString(), 'function () { return 1 }', 'to string')
 
     var object = {}
