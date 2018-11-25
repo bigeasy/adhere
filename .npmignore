@@ -1,5 +1,7 @@
 /.*
 /*.md
+/_adhere.js
+/benchmark
 /coverage
 /docs
 /t
